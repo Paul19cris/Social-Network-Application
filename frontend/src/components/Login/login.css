@@ -1,0 +1,60 @@
+html {
+  background-image: url('../../background.png');
+}
+
+.loginMain {
+    margin: 7%;
+    width: 0 auto;
+    height: 0 auto;
+    display: flex;   
+    align-items: center;
+    gap: 75px;
+  }
+
+.loginLogo {
+    height: 150px;
+    width: 150px;
+    animation: mymove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    100% {transform: rotate(180deg);}
+  }
+
+.loginTextField {
+  padding: 25px;
+  gap: 10px;
+  width: 300px;
+  display: flex;   
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginButtons {
+  height: 50px;
+  width: 250px;
+}
+
+
+.loginButton {
+  height: 50px;
+  width: 250px; 
+}
+
+.loginP {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.loginError {
+  height: 5px;
+  color: red;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.loginStackTextField {
+  gap: 25px;
+}

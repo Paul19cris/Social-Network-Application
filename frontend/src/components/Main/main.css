@@ -1,0 +1,41 @@
+html {
+    background-image: url('../../background.png');
+}
+
+.mainLogo {
+    height: 300px;
+    width: 300px;
+    animation: mymove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    100% {transform: rotate(180deg);}
+  }
+
+.mainButton {
+    height: 50px;
+    width: 250px; 
+}
+
+.mainMain {
+  width: 0 auto;
+  height: 0 auto;
+  display: flex;   
+  align-items: center;
+  gap: 75px;
+}
+
+.mainP {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainStack {
+  display: flex;   
+  align-items: center;
+  gap: 25px;
+  width: 30%;
+}
+

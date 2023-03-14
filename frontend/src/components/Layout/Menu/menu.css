@@ -1,0 +1,13 @@
+html {
+    background-image: url('../../../background.png');
+}
+
+.MenuMain {
+    gap: 30px;
+}
+
+.MenuPaper {
+    align-items: center;
+    padding: 5%;
+
+}
