@@ -3,6 +3,6 @@ This is a Full-Stack Web Application, that represents a Social Application where
 
 The accounts are created by self-generating ID, unique email validated with Regex, unique username and minimum 4 characters password. An account contains also a friend list, where a friend model can be created and added in the list with the friendship status between the 2 accounts. Also, the unique email is stored in Local Storage and if it exists it is fetched from database to Redux Storage.
 
-To run the frontend, you have to install node modules.
+To run the frontend, you have to install node modules and also a MySQL connection on port 3306 and a database with name "web".
 
 The Application is a work on progress.
