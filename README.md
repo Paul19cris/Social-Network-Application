@@ -5,4 +5,6 @@ The accounts are created by self-generating ID, unique email validated with Rege
 
 To run the frontend, you have to install node modules and also a MySQL connection on port 3306 and a database with name "web".
 
+I made this project on my own and this is 100% my creation.
+
 The Application is a work on progress.
