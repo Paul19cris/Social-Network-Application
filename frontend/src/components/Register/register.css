@@ -1,0 +1,60 @@
+html {
+  background-image: url('../../background.png');
+}
+
+.registerMain {
+    margin: 5%;
+    width: 0 auto;
+    height: 0 auto;
+    display: flex;   
+    align-items: center;
+    gap: 25px;
+  }
+
+.registerLogo {
+    height: 100px;
+    width: 100px;
+    animation: mymove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    100% {transform: rotate(180deg);}
+  }
+
+.registerTextField {
+  padding: 25px;
+  gap: 10px;
+  width: 300px;
+  display: flex;   
+  align-items: center;
+  flex-direction: column;
+}
+
+.registerStackTextField {
+    gap: 25px;
+}
+
+.registerButtons {
+  height: 50px;
+  width: 250px;
+}
+
+
+.registerButton {
+  height: 50px;
+  width: 250px; 
+}
+
+.registerError {
+    height: 5px;
+    color: red;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.registerP {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
