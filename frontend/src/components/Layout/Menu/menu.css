@@ -1,0 +1,13 @@
+html {
+    background-image: url('../../../background.png');
+}
+
+.MenuMain {
+    gap: 30px;
+}
+
+.MenuPaper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
