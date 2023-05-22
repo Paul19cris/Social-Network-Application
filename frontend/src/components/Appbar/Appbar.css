@@ -1,0 +1,17 @@
+.App-logo {
+    height: 0 auto;
+    width: 50px;
+    
+}
+
+.App-profilePicture {
+    width: 35px;
+}
+
+.social {
+    color: wheat;
+}
+
+.search {
+    position: relative;
+}
